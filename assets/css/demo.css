@@ -1,0 +1,395 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700,700i|Zilla+Slab:300,300i,400,400i,500,500i,600,600i,700,700i');
+
+body {
+	font-family: 'Noto Sans', sans-serif;
+	color:#888888;
+	line-height:1.8;
+}
+
+h1, h2, h3, h4, h5, h6,input[type=submit],button[type=submit]{
+	font-family: 'Zilla Slab', serif;
+	font-weight:700;
+	line-height:1.3;
+}
+
+ul{
+	padding:0px;
+	margin:0px;
+	list-style:none;
+}
+
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+
+/* Back to top */
+
+#backtotop.visible {
+    opacity: 0.5;
+    visibility: visible;
+    transition: 0.2s;
+}
+
+#backtotop {
+    background-color: #9d8d65;
+    color: #ffffff;
+}
+
+#backtotop {
+    bottom: 20px;
+    display: inline-block;
+    font-size: 16px;
+    height: 36px;
+    line-height: 36px;
+    opacity: 0.2;
+    position: fixed;
+    right: 20px;
+    text-align: center;
+    visibility: hidden;
+    width: 36px;
+    z-index: 999;
+}
+
+#backtotop:hover {
+    opacity: 1;
+}
+
+.section-padding{
+	padding:100px 0px;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 12px;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu a {
+    padding: 15px;
+    display: block;
+}
+.header_area{
+	position:relative;
+	font-family: 'Zilla Slab', serif;
+	font-weight:700;
+}
+
+.header_area a{
+	font-size:16px;
+	font-weight:700;
+	color:#000;
+}
+
+.header_absolute{
+	position:absolute;
+	width:100%;
+	left:0;
+	top:0;
+	z-index:9;
+}
+
+.header_absolute a{
+	color:#fff;
+}
+
+.search {
+    margin-top: 15px;
+    color: #fff;
+}
+/*--Strat hero area---*/
+.hero-area{
+  background: url(../images/hero-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-color:#000;
+  padding-top:180px;
+  padding-bottom:130px;
+}
+.hero-text{
+  font-size:14px;
+  margin-top: 120px;
+}
+.hero-text h2{
+  font-size:40px;
+  line-height: 48px;
+  margin-bottom: 20px;
+  width:auto;
+}
+.register-now-form{
+  background: #fff;
+  padding:60px;
+  border-top: 10px solid #0BBBC1;
+  
+}
+input, button, textarea {
+    padding: 5px;
+    width: 100%;
+    border:1px solid #ddd;
+    color:#000;
+}
+input[type=submit],button[type=submit]{
+  width: auto;
+  border:none;
+  background:#0BBBC1; 
+  font-weight: 700;
+}
+.register-now-form p{
+  margin-bottom: 20px;
+}
+.register-now-form h3{
+  margin-top: -10px;
+  margin-bottom: 50px;
+}
+.register-now-form p:last-child{
+  margin-bottom: 0;
+}
+.register-now-form input[type=submit]{
+  width:100%;
+}
+.register-now-form h3{
+  color:#000;
+}
+.register-now-form h3 span{
+  color:#E60909;
+}
+/*-End Hero area-*/
+
+/*--service area start--*/
+.section-gray-bg{
+  background: #FBFBFB;
+}
+.section-gray-bg h4{
+  color:#000;
+}
+.section-tiker{
+    padding-top:100px;
+}
+.tiker-text{
+  color:#fff;
+  background:#303030;
+  display:inline-block;
+  padding:5px 10px;
+  border-radius:40px;
+  margin-bottom:10px;
+}
+.tiker-text:hover{
+  background:#0BBBC1;
+  transition: 0.5s;
+}
+.section-padding h2{
+  color:#000;
+  font-weight:700;
+}
+.section-padding p{
+  font-size:15px;
+  padding-bottom: 10px
+}
+.boxed-button{
+  color:#fff;
+  background:#0BBBC1;
+  display:inline-block;
+  padding:5px 20px;
+  border-radius:40px;
+  margin-bottom:10px;
+  font-weight:700
+  
+}
+.boxed-button:hover{
+  color:#000;
+  transition: 0.6s;
+}
+.margin-80{
+  margin:80px 0; 
+}
+.service-box{
+  margin-bottom: 50px;
+  padding: 30px 10px;
+}
+.service-box:hover{
+    background:#FBFAFB;
+    
+}
+.service-box h3{
+  color:#000;
+  font-size:20px;
+  margin: 17px 0;
+  height:30px;
+}
+.margin-80{
+  margin:60px 0; 
+}
+.margin-80 h2{
+  text-align:center
+}
+/*--service area end--*/
+
+/*--team area start--*/
+.team-item {
+  text-align: center;
+  background-color: #fbfbfb;
+  padding: 30px;
+  line-height: 22px;
+  border:2px solid transparent;
+  box-shadow: 0px 9px 9px #D6D6D6;
+  
+}
+.team-item:hover{
+  box-shadow: 0 0 0;
+  border:2px solid #13BDC3;
+  transition: 0.9s
+}
+.team-item img {
+  border-radius: 90px;
+}
+.team_item h4 span {
+  font-weight: normal;
+  color: #888888;
+  font-family: 'Noto Sans', sans-serif;
+  font-size:14px;
+}
+.team-item h4 {
+  padding: 20px 0px;
+}
+
+
+.owl-carousel .owl-item .team-item img {
+    display: inline-block;
+    width: auto;
+}
+
+.owl-dots div {
+  height: 12px;
+  width: 12px;
+  background: #eee;
+  display: inline-block;
+  margin: 4px;
+  border-radius: 50%;
+}
+.owl-dots {
+  text-align: center;
+  margin-top: 20px;
+}
+.owl-dot.active {
+  background-color: #13BDC3;
+}
+/*--team area end--*/
+
+/*--call to action start--*/
+.cta {
+  background-image: url(../images/call-to-sction-bg.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.black-overlay, .black-overlay h1 {
+  position: relative;
+  color: #fff;
+  z-index: 1;
+}
+.black-overlay:after {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  content: "";
+  background-color: #000;
+  z-index: -1;
+  opacity: .7;
+}
+.cta-promo p{
+  font-size:14px;
+}
+.service-btn{
+  color:#fff;
+  background:#0BBBC1;
+  display:inline-block;
+  padding:10px 20px;
+  border-radius:40px;
+  font-weight:700;
+}
+.service-btn:hover{
+  color:#fff;
+}
+
+
+/*--call to action end--*/
+
+/*--Blog area start--*/
+.margin-bottom-80{
+  margin-bottom: 80px;
+}
+.section-padding h2{
+  text-align:center;
+  font-family:'Zilla Slab', serif;
+}
+.single-blog-box{
+  box-shadow: 0 0 5px #f1f1f1;
+  padding:25px;
+}
+.single-blog-box h3{
+  color:#000;
+  font-size:21px;
+}
+.single-blog-box{
+  font-family: 'Zilla Slab', serif;
+}
+.single-blog-box a{
+  color:#0BBBC1;
+  font-family: 'Zilla Slab', serif;
+}
+/*--Blog area end--*/
+
+/*--Footer area start--*/
+.footer-area {
+    background: #000;
+    padding: 80px 0;
+}
+.footer-details p{
+    margin-top:15px;
+    color:#fff;
+    font-family: 'Zilla Slab', serif;
+}
+.footer-area ul{
+    font-weight: 700;
+    margin: 0;
+    padding:0;
+    list-style: none;
+    line-height: 2;
+    margin-top:10px;
+    font-family: 'Zilla Slab', serif;
+}
+.footer-area ul a{
+    color:#fff;
+}
+.footer-area h3{
+    font-size: 20px;
+    margin-top: 20px;
+    color:#fff;
+    font-family: 'Zilla Slab', serif;
+}
+.social-links a{
+    display:inline-block;
+    height:35px;
+    width: 35px;
+    border: 1px solid #fff;
+    margin-right: 2px;
+    text-align:center;
+    line-height:35px;
+    font-size:17px;
+    border-radius:50%;
+    color:#fff;
+}
+.social-links a:hover{
+   background:#0BBBC1;
+   border:#0BBBC1;
+   color:#fff;
+   transition: 0.3s;
+}
+/*--Footer area end--*/

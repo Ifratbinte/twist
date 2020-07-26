@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700,700i|Zilla+Slab:300,300i,400,400i,500,500i,600,600i,700,700i');
+
+body {
+	font-family: 'Noto Sans', sans-serif;
+	color:#888888;
+	line-height:1.8;
+}
+
+h1, h2, h3, h4, h5, h6,input[type=submit]{
+	font-family: 'Zilla Slab', serif;
+	color:#000;
+	font-weight:700;
+	line-height:1.3;
+}
+
+ul{
+	padding:0px;
+	margin:0px;
+	list-style:none;
+}
+
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+
+/* Back to top start*/
+
+#backtotop.visible {
+    opacity: 0.5;
+    visibility: visible;
+    transition: 0.2s;
+}
+
+#backtotop {
+    background-color: #9d8d65;
+    color: #ffffff;
+}
+
+#backtotop {
+    bottom: 20px;
+    display: inline-block;
+    font-size: 16px;
+    height: 36px;
+    line-height: 36px;
+    opacity: 0.2;
+    position: fixed;
+    right: 20px;
+    text-align: center;
+    visibility: hidden;
+    width: 36px;
+    z-index: 999;
+}
+
+#backtotop:hover {
+    opacity: 1;
+}
+
+/* Back to top end*/
+
+.section_padding{
+	padding:100px 0px;
+}
+
+/*header area style start*/
+
+.hero_area{
+	background-image:url(../images/bg.jpg);
+	background-position:center;
+	background-size:cover;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 12px;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu a {
+    padding: 15px;
+    display: block;
+}
+
+.header_area{
+	position:relative;
+	font-family: 'Zilla Slab', serif;
+	font-weight:700;
+}
+
+.header_area a{
+	font-size:16px;
+	font-weight:700;
+	color:#000;
+}
+
+.header_absolute{
+	position:absolute;
+	width:100%;
+	left:0;
+	top:0;
+	z-index:9;
+}
+
+.header_absolute a{
+	color:#fff;
+}
+
+.search {
+    margin-top: 15px;
+    color: #fff;
+}
+
+.black_overlay{
+  position: relative;
+  color: #fff;
+  z-index: 1;
+}
+.black_overlay:after {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  content: "";
+  background-color: #000;
+  z-index: -1;
+  opacity: .7;
+}
+
+.header_title {
+  text-align: center;
+  padding: 160px 0px;
+}
+.header_title h1 {
+  color: #fff;
+}
+/*header area style end*/
+
+/*promotion area style start*/
+
+.promotion_detail {
+    margin-top: 60px;
+}
+
+.promotion_detail h5 {
+  background-color: #000;
+  color: #fff;
+  display: inline-block;
+  padding: 8px 40px;
+  border-radius: 50px;
+  text-align: center;
+  font-family: 'Noto Sans', sans-serif;
+}
+.promotion_detail h3 {
+  padding-bottom: 15px;
+}
+
+a.service_btn {
+    color: #fff;
+    background: #0BBBC1;
+    padding: 10px 40px;
+    display: inline-block;
+    border-radius: 50px;
+    font-weight: 700;
+	margin-top:20px;
+}
+
+/*promotion area style end*/
+
+/*feature area style start*/
+
+.feature{
+	background-image:url(../images/bg2.jpg);
+	background-position:center;
+	background-size:cover;
+}
+
+.single_feature h4{
+	color:#fff;
+}
+
+/*feature area style end*/
+
+/*team area style start*/
+
+.owl-carousel .owl-item .single_team img {
+  width: auto;
+  display: inline-block;
+}
+.single_team {
+  text-align: center;
+  margin: 0 10px;
+  line-height: 25px;
+  border: 1px solid #ddd;
+  padding: 15px 20px;
+  background-color:#FBFBFB;
+}
+.single_team img{
+  margin-bottom: 30px;
+}
+.single_team p {
+  margin-bottom: 30px;
+}
+.single_team h5 span {
+  display: block;
+  color: #888888;
+  margin-top: 10px;
+}
+.single_team:hover {
+  border: 1px solid #0BBBC1;
+}
+
+.owl-dots div {
+  height: 12px;
+  width: 12px;
+  background: #eee;
+  display: inline-block;
+  margin: 4px;
+  border-radius: 50%;
+}
+.owl-dots {
+  text-align: center;
+  margin-top: 20px;
+}
+.owl-dot.active {
+  background-color: #13BDC3;
+}
+/*team area style end*/
+
+/*promo area style start*/
+
+.promo_area{
+	background-image:url(../images/bg2.jpg);
+	background-position:center;
+	background-size:cover;
+}
+
+.promo h2 {
+  color: #fff;
+  padding-bottom: 10px;
+}
+.promo {
+  line-height: 30px;
+}
+
+/*promo area style end*/
+
+/*footer area style start*/
+
+.footer_logo {
+    color:#000;
+}
+.footer_logo a{
+	font-size:18px;
+	font-weight:700;
+}
+.footer_area a,h4 {
+  color: #000;
+  font-weight: 700;
+}
+
+.footer_logo p {
+  margin-top: 30px;
+}
+.social_link ul li {
+  float: left;
+  padding-right: 30px;
+}
+.social_link ul {
+  margin-top: 30px;
+}
+.social_link ul li a {
+  border: 1px solid;
+  padding: 10px 20px;
+  border-radius: 50%;
+  display: block;
+  font-family: 'Zilla Slab', serif;
+}
+
+.social_link a:hover{
+	background-color:#0BBBC1;
+	border:none;
+	padding: 11px 21px;
+}
+
+.copyright{
+	text-align:center;
+	color:#888888;
+	margin-top:20px;
+}
+
+/*footer area style end*/
